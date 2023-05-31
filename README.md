@@ -13,3 +13,5 @@ Basic tags are used in css part
 JS:
 
 Some javasript in-built functions and DOM is used in the Project.
+
+ https://madhavan112.github.io/Rock-Paper-Scissor/
