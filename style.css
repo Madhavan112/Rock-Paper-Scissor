@@ -1,0 +1,76 @@
+html{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background:linear-gradient(to right,#000000,#434343);
+    /* background:linear-gradient(to right,orange,rgb(235, 165, 36),orange,yellow); */
+    
+    
+}
+
+h1{
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 80px;
+    color: white;
+}
+p{
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: .5rem;
+    font-weight: 700;
+    color: white;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+
+}
+button{
+    border: none;
+    font-size: 3rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    background-color: purple;
+    padding: .5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+.buttons>button:active{
+    opacity: 0.7;
+    transform: scale(0.8);
+
+}
+#rock{
+background-color: #ff0000;
+}
+#paper{
+    background-color: #fff000;
+}
+#scissor{
+    background-color: #4caf;
+    padding-right: 1rem;
+
+}
+#user-score{
+    color: #2196f3;
+}
+#Computer-score{
+    color: #88ff00;
+}
+#restart{
+    display: block;
+    margin-top: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    color: white;
+    transition: all .9s ease-in-out;
+}
+#restart:active{
+    opacity: 0.8;
+    transform: scale(0.5);
+
+}
