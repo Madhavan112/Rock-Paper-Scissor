@@ -4,8 +4,7 @@ A responsive website to play our famous rock paper scissor game with computer wh
 
 HTML:
 
-
-fundamental tags of html are used
+Fundamental tags of html are used
 
 CSS:
 
